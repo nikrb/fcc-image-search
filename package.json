@@ -1,0 +1,21 @@
+{
+  "name": "ImageSearchAbstraction",
+  "version": "1.0.0",
+  "description": "fcc project image search abstraction",
+  "scripts": {
+    "start": "nodemon server.js",
+    "mongo": "mongod --bind_ip=$IP --nojournal",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikrb",
+  "license": "cc0",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
