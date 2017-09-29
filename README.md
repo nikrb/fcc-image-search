@@ -1,1 +1,1 @@
-FCC project image search api. [demo](https://fcc-image-search-knik.c9users.io/)
+FCC project image search api. [demo](https://knik-fcc-image-search.glitch.me/)
