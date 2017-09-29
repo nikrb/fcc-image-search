@@ -4,7 +4,7 @@ const express = require('express');
 const mongo = require('mongodb');
 const app = express();
 
-mongo.connect( 'mongodb://localhost:27017/imgs', ( err, db) => {
+mongo.connect( process.env.dbUri, ( err, db) => {
   if( err){
     throw new Error( "mongo connect failed");
   } else {
